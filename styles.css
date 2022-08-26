@@ -49,6 +49,28 @@ body {
     color:#E5E7EB;
   }
 
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color:#1f2937;
+    font-weight: 100;
+  }
+  
+  button.signup {
+    display:flex;
+    font-family: Roboto, sans-serif;
+    border-color:#f9faf8;
+    border-width: 3px;
+    border-radius: 8px;
+    background: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color:#E5E7EB;
+    padding: 5px 20px;
+  }
+
   .sidehero {
     display: flex;
     flex-direction: column;
@@ -73,15 +95,45 @@ body {
     border-color: #3882f6;
   }
 
-  .button {
-    font-family: Roboto, sans-serif;
-    border-color:#E5E7EB;
-    border-radius: 8px;
-    background: #3882f6;
-    font-size: 18px;
-    color:#E5E7EB;
-    padding: 5px 20px;
+  .quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
   }
+
+  .subquote {
+    background-color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+  }
+
+  .quotecontainer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 40px;
+  }
+
+  .callcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+  }
+
+  .call {
+    font-size: 24px;
+    color: #e5e7eb;
+  }
+
 
   .footer {
     height: 72px;
